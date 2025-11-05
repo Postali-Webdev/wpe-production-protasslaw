@@ -1,0 +1,55 @@
+/**
+ * Mobile styles
+ *
+ * @package protass
+ * @author Postali
+ */
+
+.mobile {
+	display: none;
+}
+
+/* Media Queries from Postali parent theme */
+@media (min-width: 991px) {
+	#mobile-nav {display:none !important;}
+}
+
+/* Custom Media Queries for child theme */
+@media (max-width: 1650px) {
+	
+}
+
+@media (max-width: 1400px) {
+	
+}
+
+@media (max-width: 1300px) {
+	
+}
+
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 990px) {
+	.desktop {
+		display: none !important;
+	}
+	.mobile {
+		display: block;
+	}
+}
+@media (max-width: 800px) {
+
+}
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 667px) {
+	
+}
+
+@media (max-width: 480px) {
+
+}

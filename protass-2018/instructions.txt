@@ -1,0 +1,24 @@
+Theme usage instructions
+
+This child theme has been created with additional features that align with our current website dev demands
+
+To compile your SASS use the command compass watch from the command line in this themes directory
+http://compass-style.org/help/
+
+Slick has been included but commented out in the functions file, only enqueue this where necessary
+http://kenwheeler.github.io/slick/
+
+header.php has been included with the mobile menu snippet, which is working and triggered from /js/scripts.js/
+
+block-element.php is a base example of how to use a repeating design element through the website without coding it over and over, to call this block or any other just use the below php command
+<php get_template_part('block', 'element');?>
+
+Multiple blocks can be created and the tailing word can be changed, element is just used as placeholder text
+
+
+STARTING DEV
+
+1) rename theme directory with clients name and the year
+2) do a find/replace for all instances of protass in the theme directory
+3) run compass to compile SASS
+4) thats all for now, you're ready to start building
