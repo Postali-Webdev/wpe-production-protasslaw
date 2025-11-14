@@ -86,6 +86,7 @@ if ($disable_qode_seo != "yes") {
 		<a class="btn" href="/contact/" title="Contact Harlan Protass">Contact Harlan</a>
 		<a title="mobile menu button" href="#" id="menu-icon"><div><hr><hr><hr></div></a>
 			<div id="slide-nav">
+                <nav role="navigation">
 				<?php
 		        // The parent theme menu has way too many complications, lets use a simple wp_menu, primary-nav, set in the functions.php file
 				    $args = array(
@@ -94,6 +95,7 @@ if ($disable_qode_seo != "yes") {
 				    );
 				    wp_nav_menu( $args );
 				?>
+                </nav>
 			</div>
 	</div><!-- end head container -->
 </div>

@@ -34,13 +34,15 @@
 						<div class="two_columns_50_50 clearfix">
 							<div class="column1"><div class="column_inner">
 							<p class="section-tag">Navigation</p>
-						<?php
-						    $args = array(
-						        'container' => false,
-						        'theme_location' => 'footer-nav'
-						    );
-						    wp_nav_menu( $args );
-						?>
+                            <nav role="navigation">
+                            <?php
+                                $args = array(
+                                    'container' => false,
+                                    'theme_location' => 'footer-nav'
+                                );
+                                wp_nav_menu( $args );
+                            ?>
+                            </nav>
 						</div></div>
 						<div class="column2"><div class="column_inner">
 							<p class="section-tag">Disclaimer</p>
